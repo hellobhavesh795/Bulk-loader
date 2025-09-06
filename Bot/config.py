@@ -11,16 +11,16 @@ load_dotenv()
 class Config(object):
 
     # Your API HASH
-    API_HASH = os.environ.get('API_HASH')
+    API_HASH = os.environ.get('21866171')
 
     # Your API ID
-    APP_ID = int(os.environ.get('APP_ID'))
+    APP_ID = int(os.environ.get('5788dba8f23fade5edda55948e985f06'))
 
     # Your Bot Token
-    BOT_TOKEN = os.environ.get('BOT_TOKEN')
+    BOT_TOKEN = os.environ.get('8165516042:AAFifRDFu93xArHhfbAqVMe6Fs_x_BJA8Yg')
 
     # Your Telegram ID (optional)
-    OWNER_ID = os.environ.get('OWNER_ID')
+    OWNER_ID = os.environ.get('6927406670')
 
     # Upload method (default to False)
     AS_ZIP = bool(strtobool(os.environ.get('AS_ZIP', 'False')))
