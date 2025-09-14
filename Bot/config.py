@@ -17,10 +17,10 @@ class Config(object):
     APP_ID = int(os.environ.get('5788dba8f23fade5edda55948e985f06'))
 
     # Your Bot Token
-    BOT_TOKEN = os.environ.get('8165516042:AAFifRDFu93xArHhfbAqVMe6Fs_x_BJA8Yg')
+    BOT_TOKEN = os.environ.get('8147399877:AAEk1DTB1Hvy52wsjM96d2xzID83_0C5s1g')
 
     # Your Telegram ID (optional)
-    OWNER_ID = os.environ.get('6927406670')
+    OWNER_ID = os.environ.get('8082516546')
 
     # Upload method (default to False)
     AS_ZIP = bool(strtobool(os.environ.get('AS_ZIP', 'False')))
